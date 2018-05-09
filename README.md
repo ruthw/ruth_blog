@@ -1,6 +1,6 @@
 # Ruth Blog
 
-This is a small Blog practise using Ember
+This is a small Blog practise using Ember. As it's a quick start project, I did not include tests.
 
 # Screenshots
 
