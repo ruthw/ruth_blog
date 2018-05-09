@@ -1,0 +1,17 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>About Me</h2>
+  <p>
+    I am a web developer with commercial experience in Ruby on Rails, HTML, CSS, PostgreSQL and MySQL.
+  </p>
+</div>
+
+{{#each model as |hobby|}}
+  <article class="listing">
+    <h3>{{hobby.title}}</h3>
+    <div class="detail description">
+      <span>Description:</span> {{hobby.description}}
+    </div>
+    <img src="{{hobby.image}}" alt="">
+  </article>
+{{/each}}
